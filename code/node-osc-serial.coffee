@@ -3,7 +3,7 @@
 ##
 #
 #
-osc = require 'osc-min'
+osc = require "osc-min"
 dgram = require "dgram"
 
 udp = dgram.createSocket "udp4"
