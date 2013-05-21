@@ -6,8 +6,8 @@
 osc = require 'osc-min'
 dgram = require "dgram"
 fs = require "fs"
-
 udp = dgram.createSocket "udp4"
+
 outport = 10000
 
 # FIlesystem readline

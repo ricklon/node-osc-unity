@@ -1,5 +1,6 @@
 serialport = require("serialport")
-SerialPort = serialport.SerialPort # localize object constructor
+SerialPort = serialport.SerialPort 
+# localize object constructor
 sys = require("sys")
 count = 0
 

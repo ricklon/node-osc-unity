@@ -5,12 +5,9 @@
 #
 osc = require "osc-min"
 dgram = require "dgram"
-
 udp = dgram.createSocket "udp4"
-
 serialport = require("serialport")
 sys = require("sys")
-
 SerialPort = serialport.SerialPort # localize object constructor
 
 outport = 10000
