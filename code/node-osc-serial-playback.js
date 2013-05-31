@@ -12,7 +12,7 @@
 
   outport = 10000;
 
-  fs.readFile("log.txt", function(err, data) {
+  fs.readFile("playbackdata.json", function(err, data) {
   if (err) {
     throw err;
   }
