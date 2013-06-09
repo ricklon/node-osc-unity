@@ -1,0 +1,24 @@
+{
+	"name": "WorldManager",
+	"preferGlobal": "false",
+	"version": "0.0.0",
+	"author": "Rutgers Virtual Worlds",
+	"description": "Tool for managing and creating unity3d games",
+	"contributors": [
+		{
+			"name": "Ryan Ostrager",
+			"email": "rostrage@docs.rutgers.edu"
+		}
+	],
+	"dependencies" : {
+		"osc-min" : "*",
+		"serialport" : "*"
+	},
+	"analyze" : false,
+	"devDependencies" : [
+	],
+	"license" : "MIT",
+	"engines" : {
+		"node": ">=0.8"
+	}	
+}
